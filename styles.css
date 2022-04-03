@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url(https://fonts.google.com/specimen/Barlow);
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+body {
+    position: relative;
+    color: black;
+    display: grid;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 40px;
+    right: 20px;
+}
+
+ul li { padding: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 4;
+    margin: 3%;
+    color: white;
+}
+
+h3 {
+    padding: 20px;
+}
+
+.header {
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: contain;
+    height: 750px;
+}
+
+@media only screen and (max-width: 980px) {
+.header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+}
+.arrow img {
+width: 12%;
+position: relative;
+bottom: 30px;
+left: 10px;
+}
+
+.order-property {
+    order: 2;
+}
+
+.graphic , .photography {
+    background-size: contain;
+    background-position: top;
+}
+.graphictext {
+    padding: 45% 11% 7%;
+}
+.footerlogo {
+    padding: 15% auto;
+}
+
+}
+
+.logo {
+    display: inline-block;
+    margin: 40px 1px 2px 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.arrow {
+    position: relative;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    top: 5%;
+}
+
+/* 
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px thin;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.transform {
+    padding: 12%;
+}
+
+.graphic {
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    height: 600px;
+    padding: 27% 14% 7%;
+    text-align: center;
+}
+
+.photography {
+    background-image: url(images/desktop/image-photography.jpg);
+    background-size: cover;
+    height: 600px;
+    padding: 27% 14% 7%;
+    text-align: center;
+}
+
+.testimonials {
+    padding: 6% 10%;
+    text-align: center;
+}
+
+#testimg {
+    border-radius: 50%;
+    margin: 10% auto;
+    width: 30%;
+}
+
+
+.testpara {
+    padding: 4%;
+}
+
+.name {
+    font-weight: 800;
+    margin: 80px;
+    font-size: 1rem;
+}
+
+.job {
+    padding: 15px;
+}
+
+.row img {
+    width: 100%;
+}
+
+
+footer {
+    background-color: hsl(168, 48%, 52%);
+    padding: 25px;
+}
+
+.footerlogo {
+    margin: 6% auto;
+    text-align: center;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 18px;
+}
+.contact img {
+    padding: 20px;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+  
